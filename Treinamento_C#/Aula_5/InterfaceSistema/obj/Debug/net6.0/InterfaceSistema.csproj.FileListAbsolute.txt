@@ -1,0 +1,15 @@
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.csproj.AssemblyReference.cache
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.AssemblyInfoInputs.cache
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.AssemblyInfo.cs
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.csproj.CoreCompileInputs.cache
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\bin\Debug\net6.0\InterfaceSistema.exe
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\bin\Debug\net6.0\InterfaceSistema.deps.json
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\bin\Debug\net6.0\InterfaceSistema.runtimeconfig.json
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\bin\Debug\net6.0\InterfaceSistema.dll
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\bin\Debug\net6.0\InterfaceSistema.pdb
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.dll
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\refint\InterfaceSistema.dll
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.pdb
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\InterfaceSistema.genruntimeconfig.cache
+C:\Users\Milena_Petersen\Documents\VS Code\Treinamento_C#\Aula_5\InterfaceSistema\obj\Debug\net6.0\ref\InterfaceSistema.dll
