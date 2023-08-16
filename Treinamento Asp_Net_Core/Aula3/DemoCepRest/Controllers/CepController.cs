@@ -39,15 +39,16 @@ public class CepController : ControllerBase
         return CepModel.ParaDTO(cep);
     }
 
-    //Post .../api/v1/cep/cadastro
-    [HttpPost("cadastro")]
-    public ActionResult<CepDTO> PostCadastrar(CepModel codigoCep)
+    //Post .../api/v1/cep
+    [HttpPost]
+    public ActionResult<CepDTO> PostCadastrar(CepDTO cepDTO)
     {
-        var cepCadastro = _cepRepository.Cadastrar(codigoCep);
-        if(cepCadastro == null)
+        CepModel? cepAtual = _cepRepository.ConsultarPorCodigoCep(cepDTO.Cep);
+        if(cepAtual != null)
         {
-            return NotFound();
+            return Problem("Cep já existe na base de dados!");
         }
-        return CepModel.ParaDTO(cepCadastro);
+        CepModel cepNovo = _cepRepository.Cadastrar(CepModel.ParaModel(cepDTO));
+        return CreatedAtAction(nameof(GetPorCodigo), new {codigoCep = cepNovo.Cep}, CepModel.ParaDTO(cepNovo));
     }
 }
