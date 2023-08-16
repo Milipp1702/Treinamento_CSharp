@@ -29,15 +29,23 @@ class Program
         int[] array2 = new int[100];
         int valor = 10;
 
-        for(int i = 0; i < array1.Length; i++){
+        for(int i = 0; i < array1.Length; i++)
+        {
             array1[i] = valor++;
         }
         Array.Copy(array1,array2,array1.Length);
-        for(int i = 0; i < array2.Length; i++){
+        for(int i = 0; i < array2.Length; i++)
+        {
             Console.WriteLine(array2[i]);
         }
 
-        int [] [] matrizm = new int [5][5];
-        //int [][] matrizj = ;
+        //int [] [] matrizm = new int [5][5];
+        int [][] matrizj = { new int[5], new int[5], new int[5],new int[5], new int[5]};
+        int somaTotal = 0;
+        //foreach(int soma in matrizm)
+        //{
+            //somaTotal += soma; 
+        //}
+        Console.WriteLine(somaTotal);
     }
 }
