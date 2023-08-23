@@ -8,6 +8,7 @@ builder.Services.AddDbContext<TarefaContext>(opcoes => {
     opcoes.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
     opcoes.EnableSensitiveDataLogging().LogTo(Console.WriteLine);
 });
+builder.Services.AddScoped<ITarefasRepository,TarefasRepositoryDB>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
