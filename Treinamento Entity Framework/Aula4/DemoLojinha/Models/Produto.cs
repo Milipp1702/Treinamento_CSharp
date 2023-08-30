@@ -6,7 +6,7 @@ public class Produto
 
     public string Nome{get;set;} = null!;
 
-    public int Descricao{get;set;}
+    public string? Descricao{get;set;}
 
     public int PrecoUnitario{get;set;}
     //relacionamento N-N com Pedido

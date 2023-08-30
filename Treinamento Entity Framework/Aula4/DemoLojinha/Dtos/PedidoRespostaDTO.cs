@@ -16,7 +16,7 @@ public class PedidoRespostaDTO
         return new PedidoRespostaDTO{
             Id = model.Id,
             DataEmissao = model.DataEmissao.ToShortDateString(),
-            NomeCliente = model.cliente.Nome,
+            NomeCliente = model.Cliente.Nome,
             ValorTotal = $"{total:C}",
             Itens = model.Itens.Select(ItemRespostaDTO.DeModelParaDTO)
             //mesma coisa q

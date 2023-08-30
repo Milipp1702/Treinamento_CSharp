@@ -11,12 +11,12 @@ public class ItemRespostaDTO
     public string SubTotal{get;set;} = null!;
     public static ItemRespostaDTO DeModelParaDTO(Item model)
     {
-        return new ItemRespostaDTO{
-            IdProduto = model.ProdutoId,
-            NomeProduto = model.Produto.Nome,
-            ValorUnitario = $"{model.Produto.PrecoUnitario/100M:C}",
-            Quantidade = model.Quantidade,
-            SubTotal = $"{model.Quantidade * model.Produto.PrecoUnitario /100M : C}"
-        };
+        var dto = new ItemRespostaDTO();
+        dto.IdProduto = model.ProdutoId;
+        dto.NomeProduto = model.Produto.Nome;
+        dto.ValorUnitario = $"{model.Produto.PrecoUnitario/100M:C}";
+        dto.Quantidade = model.Quantidade;
+        dto.SubTotal = $"{model.Quantidade*model.Produto.PrecoUnitario/100M:C}";
+        return dto;
     }
 }

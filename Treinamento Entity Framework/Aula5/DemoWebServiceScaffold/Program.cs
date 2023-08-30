@@ -1,16 +1,8 @@
-using DemoLojinha.Services;
-using Microsoft.EntityFrameworkCore;
-
+using DemoWebServiceScaffold.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<LojinhaContext>(opcoes => {
-    opcoes.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-    opcoes.EnableSensitiveDataLogging().LogTo(Console.WriteLine);
-});
-builder.Services.AddScoped<IProdutosRepository,ProdutosRepositoryEF>();
-builder.Services.AddScoped<IPedidosRepository,PedidosRepositoryEF>();
-builder.Services.AddScoped<IClientesRepository,ClientesRepositoryEF>();
+builder.Services.AddDbContext<BibliotecaContext>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
