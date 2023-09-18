@@ -15,6 +15,24 @@ const itens = ref([{valor:'texto',cond:true},{valor:'outro',cond:false}]);
   </ul>
 </template>
 
+<!--
+    <script setup lang="ts">
+import { ref } from 'vue'
+
+const itens = ref([{id:1,valor:'texto',cond:true},{id:2,valor:'outro',cond:false}]);
+</script>
+
+<template>
+<br>
+<br>
+  <ul>
+    <template v-for="item in itens" :key="item.id">
+        <li v-if="item.cond">{{ item.valor }}</li>
+    </template>
+  </ul>
+</template>
+-->
+
 <!-- como pegar um for com array de objetos
 <script setup lang="ts">
 import { ref } from 'vue'
