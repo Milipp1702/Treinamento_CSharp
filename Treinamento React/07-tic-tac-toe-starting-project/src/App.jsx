@@ -61,7 +61,7 @@ function deriveGameBoard(gameTurns) {
 }
 
 function App() {
-  const [players, setPlayers] = usesState(PLAYERS);
+  const [players, setPlayers] = useState(PLAYERS);
   const [gameTurns, setGameTurns] = useState([]);
   const activePlayer = deriveActivePlayer(gameTurns);
   const gameBoard = deriveGameBoard(gameTurns);
